@@ -22,8 +22,11 @@ body: Container(
     children: [
       SizedBox(
         height: 400,
+
         width: double.infinity,
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
           children: [
             const Text('Sign in to continue'),
             Text('Sabzi', style:  TextStyle(fontSize: 50,
