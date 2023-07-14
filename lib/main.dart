@@ -8,7 +8,7 @@ void main() {
   runApp( const MyApp());
 }
 
-class MyApp extends StatelessWidget{
+class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   //This Widget is the root of your application
@@ -17,15 +17,9 @@ class MyApp extends StatelessWidget{
     return const MaterialApp(
       home: SignIn(),
     );
-
   }
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
-  }
-
-
-
 }
+
+
+
+
